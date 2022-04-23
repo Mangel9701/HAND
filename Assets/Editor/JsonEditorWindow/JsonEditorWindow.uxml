@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="JsonEditorWindow.uss" />
+    <ui:VisualElement name="TopContainer" style="flex-direction: row; margin-top: 1%;">
+        <ui:VisualElement name="Options" style="margin-top: 5px;">
+            <ui:Button text="Token" display-tooltip-when-elided="true" name="TokenRecieved" class="ButtonJsonType" />
+            <ui:Button text="Msg. Details" display-tooltip-when-elided="true" name="MessageDetails" class="ButtonJsonType" />
+            <ui:Button text="ArScene" display-tooltip-when-elided="true" name="ARScene" class="ButtonJsonType" />
+        </ui:VisualElement>
+        <ui:ScrollView name="JsonBuilderContainer" style="flex-grow: 1;">
+            <ui:VisualElement name="JsonContainer" />
+            <ui:VisualElement name="BuildJsonContainer" style="padding-top: 0; margin-top: 15px;">
+                <ui:Button text="Build JSON" display-tooltip-when-elided="true" name="BuildJson" style="-unity-text-align: middle-center;" />
+            </ui:VisualElement>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

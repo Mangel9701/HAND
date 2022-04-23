@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<< HEAD:Assets/scripts/UIBuilder/UIBuilderBase.cs.meta
+guid: e7d1c8b30399bd94b9fc6d6d597b63b6
+=======
+guid: 5b023141ca4f6ab43bba29303edfa398
+>>>>>>> Android:Assets/scripts/Core/Singleton.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
